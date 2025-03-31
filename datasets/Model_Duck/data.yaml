@@ -1,0 +1,13 @@
+train: F:\001_WorkProjects1\YoLoProjects\ultralytics_ros\datasets\Model_Duck\train\images
+val: F:\001_WorkProjects1\YoLoProjects\ultralytics_ros\datasets\Model_Duck\valid\images
+test: F:\001_WorkProjects1\YoLoProjects\ultralytics_ros\datasets\Model_Duck\test\images
+
+nc: 1
+names: ['Duck']
+
+roboflow:
+  workspace: modelduck
+  project: model_duck
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/modelduck/model_duck/dataset/2
