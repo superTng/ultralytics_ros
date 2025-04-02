@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: yolov8n.pt
-data: datasets/Model_Duck.v1i.yolov8/data.yaml
+model: F:/001_WorkProjects1/YoLoProjects/ultralytics_ros/test/yolov8n.pt
+data: F:/001_WorkProjects1/YoLoProjects/ultralytics_ros/datasets/Model_ShuiWeiQi/data.yaml
 epochs: 50
 time: null
 patience: 100
